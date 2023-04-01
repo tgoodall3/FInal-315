@@ -1,0 +1,45 @@
+.recipe{
+    .create{
+        margin-top: 100px;
+        // width: 100%;
+        // height: 200%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        background-color: white;
+    
+    form{
+        margin-top: 55px;
+        font-family: lato;
+
+        display: flex;
+        flex-direction: column;
+        // margin: 70px;
+    }
+    
+    input{
+        font-family: lato;
+        background-color: white;
+        display: block;
+        margin: 10px 0;
+        width: 980px;
+        height: 20px;
+    }
+    
+    .CreateSub{
+        display: flex;
+        justify-content: center;
+        margin-bottom: 100px;
+        
+        input{
+            background-color: #EFA7A7;
+            filter: drop-shadow(0 0 0.75rem);
+            font-family: caveat;
+            border-radius: 16px;
+            width: 422px;
+            height: 52px;
+        }
+    }
+    }
+}

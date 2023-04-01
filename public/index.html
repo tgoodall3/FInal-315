@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Final</title>
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <div id="log-in-nav-holder">
+      <div class="logo">
+        <img src="images/logo.svg" alt="" />
+      </div>
+      <div class="bars">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </div>
+      <nav>
+        <a href="#home">Home</a>
+        <a href="#browse">Browse</a>
+        <div class="create-rec">
+          <a href="#create">Create Recipe</a>
+        </div>
+        <div class="oval">
+          <a href="#login">Login</a>
+        </div>
+        <div class="name"></div>
+      </nav>
+    </div>
+    <div id="log-out-nav-holder">
+      <div class="logo">
+        <img src="images/logo.svg" alt="" />
+      </div>
+      <div class="bars">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </div>
+      <nav>
+        <a href="#home">Home</a>
+        <a href="#browse">Browse</a>
+        <div class="create-rec">
+          <a href="#create">Create Recipe</a>
+        </div>
+        <a href="#yourRec">Your Recipe</a>
+        <div class="oval">
+          <button onclick="signOut()">Log out</button>
+        </div>
+        <div class="name"></div>
+      </nav>
+    </div>
+
+
+    <div id="app"></div>
+
+    <div class="footer">
+      <div class="copyright">
+        <span>Copyright © 2019 The Jungle Cook</span>
+      </div>
+      <div class="bottom-nav">
+        <a href="#login">Login</a>
+        <a href="#browse">Recipes by Category</a>
+        <a href="#">Privacy and Copyright</a>
+        <a href="#create">Create Recipe</a>
+        <a href="yourRecipe.html">Your Recipes</a>
+      </div>
+      <div class="socials">
+        <img src="images/facebook (2).svg" alt="" />
+        <img src="images/instagram (1).svg" alt="" />
+      </div>
+    </div>
+
+    <!-- update the version number as needed -->
+    <script defer src="/__/firebase/9.18.0/firebase-app-compat.js"></script>
+    <!-- include only the Firebase features as you need -->
+    <script defer src="/__/firebase/9.18.0/firebase-auth-compat.js"></script>
+    <script
+      defer
+      src="/__/firebase/9.18.0/firebase-database-compat.js"
+    ></script>
+    <script
+      defer
+      src="/__/firebase/9.18.0/firebase-firestore-compat.js"
+    ></script>
+    <script
+      defer
+      src="/__/firebase/9.18.0/firebase-functions-compat.js"
+    ></script>
+    <script
+      defer
+      src="/__/firebase/9.18.0/firebase-messaging-compat.js"
+    ></script>
+    <script defer src="/__/firebase/9.18.0/firebase-storage-compat.js"></script>
+    <script
+      defer
+      src="/__/firebase/9.18.0/firebase-analytics-compat.js"
+    ></script>
+    <script
+      defer
+      src="/__/firebase/9.18.0/firebase-remote-config-compat.js"
+    ></script>
+    <script
+      defer
+      src="/__/firebase/9.18.0/firebase-performance-compat.js"
+    ></script>
+    <!-- 
+         initialize the SDK after all desired features are loaded, set useEmulator to false
+         to avoid connecting the SDK to running emulators.
+       -->
+
+    <script defer src="/__/firebase/init.js?useEmulator=true"></script>
+    <script src="lib/jquery-3.6.3.min.js"></script>
+    <script src="app/app.js"></script>
+  </body>
+</html>

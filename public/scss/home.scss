@@ -1,0 +1,98 @@
+    @font-face {
+    font-family: caveat;
+    src: url(fonts/Caveat-Bold.ttf);
+}
+@font-face {
+    font-family: gillsans;
+    src: url(../fonts/GillSans\ \(1\).ttf);
+}
+@font-face {
+    font-family: gillsanslight;
+    src: url(../fonts/GillSans-Light\ \(2\).ttf);
+}
+@font-face {
+    font-family: gillsansitalic;
+    src: url(fonts/GillSans\ Italic.ttf);
+}
+@font-face {
+    font-family: latobold;
+    src: url(../fonts/Lato-Bold.ttf);
+}
+@font-face {
+    font-family: latobolditalic;
+    src: url(../fonts/Lato-BoldItalic.ttf);
+}
+@font-face {
+    font-family: latoitalic;
+    src: url(../fonts/Lato-Italic.ttf);
+}
+@font-face {
+    font-family: lato;
+    src: url(../fonts/Lato-Regular.ttf);
+}
+
+.hero{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    background-image: url(../images/hero\ \(4\).jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #F25C54;
+    background-blend-mode: overlay;
+    opacity: 80%;
+
+.circles{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-left: 300px;
+        .pink-circle{
+    height: 168px;
+    width: 168px;
+    border-radius: 50%;
+    background-color: #FCBCB8;
+    display: flex;
+    justify-content: center;    
+    align-items: center;
+    font-family: latoitalic;
+
+    span{
+        font-family: lato;
+        width: 105px;
+        height: 50px;
+        font-size: 10px;
+    }
+}
+
+    .yellow-circle{
+    margin-top: -100px; 
+    margin-left: -250px;   
+    height: 358px;
+    width: 358px;
+    border-radius: 50%;
+    background-color: #FFD972;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;    
+    align-items: center;
+    font-family: lato;
+
+    .header{
+        height: 30px;
+        width: 220px;
+        font-size: 15px;
+        font-family: caveat;
+    }
+
+    .subText{
+        margin-top: 20px;
+        width: 164px;
+        height: 80px;
+        font-size: 13px;
+    }
+    }
+}
+}

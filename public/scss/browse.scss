@@ -1,0 +1,334 @@
+@media screen and (max-width:768px) {
+
+    
+    .recipe{
+        width: 400px;
+        form{
+            width: 300px;
+        }
+
+        input{
+            input{
+                width: 400px;
+            }
+        }
+    }
+
+      .browse-hero{
+        width: 100%;
+        position: relative; 
+
+        .row-One{
+            display: flex;
+            flex-direction: column;
+            .recipe-One{
+                // margin-top: 900px;
+                margin-bottom: 50px;
+            }
+        }
+
+        .row-Two{
+            position: relative;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+    
+                .recipe-One{
+                    margin-bottom: 50px;
+                }
+        }
+      }
+
+      .container{
+      }
+       
+}
+
+.browse-hero{
+    // max-height: 200%;
+    // height: 170%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-image: url(../images/recipe-hero.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #A7E8BD;
+    background-blend-mode: multiply;
+    opacity: 80%;
+
+    h1{
+       margin-top: 150px;
+       margin-left: 130px;
+       font-size: 20px;
+
+    }
+    
+    .row-One{
+        position: relative;
+        margin: 0 auto;
+        max-width: 1000px;
+        width: 1000px;
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        margin-left: 100px;
+
+        .recipe-One{
+            display: flex;
+            font-family: lato;
+
+            .image{
+                img{
+                    border-radius: 6px;
+                    display: flex;
+                    height: 263px;
+                    width: 250px;
+                    object-fit: cover;
+                    object-position: center;
+                }
+            }
+
+            .info{
+                padding: 10px;
+                background-color: white;
+                width: 224px;
+                height: 263px;
+                border-radius: 6px;
+                text-align: center;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                margin-right: 20px;
+
+                .header{
+                    font-size: 15px;
+                    font-family: lato;
+                }
+
+                .text-info{
+                    margin-bottom: 50px;
+                    font-size: 9px;
+                }
+
+                .time{
+                    display: flex;
+                    .image{
+                        img{
+                            display: flex;
+                            height: 25px;
+                            width: 25px;
+                        }
+                    }
+                }
+                .servings{
+                    display: flex;
+                    .images{
+                        img{
+                            display: flex;
+                            height: 25px;
+                            width: 25px;
+                        }
+                    }
+                }
+            }
+        }
+        .recipe-Two{
+            display: flex;
+            font-family: lato;
+
+            .image{
+                img{
+                    border-radius: 6px;
+                    display: flex;
+                    height: 263px;
+                    width: 250px;
+                    object-fit: cover;
+                    object-position: center;
+                }
+            }
+            .info{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                text-align: center;
+                padding: 10px;
+                background-color: white;
+                width: 224px;
+                height: 263px;
+                border-radius: 6px;
+                font-family: lato;
+
+
+                .header{
+                    font-size: 15px;
+                }
+
+                .text-info{
+                    margin-bottom: 50px;
+                    font-size: 9px;
+                }
+
+                .time{
+                    display: flex;
+                    justify-content: center;
+                    .image{
+                        img{
+                            display: flex;
+                            height: 25px;
+                            width: 25px;
+                        }
+                    }
+                }
+                .servings{
+                    display: flex;
+                    justify-content: center;
+                    .images{
+                        img{
+                            display: flex;
+                            height: 25px;
+                            width: 25px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .row-Two{
+        margin-left: 100px;
+        // margin: 0 auto;
+        margin-top: 100px;
+        width: 1000px;
+        display: flex;
+        justify-content: space-evenly;
+        margin-bottom: 100px;
+        .recipe-One{
+            display: flex;
+            font-family: lato;
+
+            .image{
+                img{
+                    border-radius: 6px;
+                    display: flex;
+                    height: 263px;
+                    width: 250px;
+                    object-fit: cover;
+                    object-position: center;
+                }
+            }
+
+            .info{
+                padding: 10px;
+                background-color: white;
+                width: 224px;
+                height: 263px;
+                border-radius: 6px;
+                text-align: center;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                margin-right: 20px;
+
+                .header{
+                    font-size: 15px;
+                }
+
+                .text-info{
+                    font-family: lato;
+
+                    margin-bottom: 50px;
+                    font-size: 9px;
+                }
+
+                .time{
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    .image{
+                        img{
+                            display: flex;
+                            height: 25px;
+                            width: 25px;
+                        }
+                    }
+                }
+                .servings{
+                    display: flex;
+                    justify-content: center;
+                    .images{
+                        img{
+                            display: flex;
+                            height: 25px;
+                            width: 25px;
+                        }
+                    }
+                }
+            }
+        }
+        .recipe-Two{
+            display: flex;
+            .image{
+                img{
+                    border-radius: 6px;
+                    display: flex;
+                    height: 263px;
+                    width: 250px;
+                    object-fit: cover;
+                    object-position: center;
+                }
+            }
+            .info{
+                font-family: lato;
+
+                padding: 10px;
+                background-color: white;
+                width: 224px;
+                height: 263px;
+                border-radius: 6px;
+                display: flex;
+                justify-content: center;
+                flex-direction: column;
+                text-align: center;
+
+                
+
+                .header{
+                    font-size: 15px;
+                }
+
+                .text-info{
+
+                    margin-bottom: 50px;
+                    font-size: 9px;
+                }
+
+                .time{
+                    display: flex;
+                    justify-content: center;
+                    .image{
+                        img{
+                            display: flex;
+                            height: 25px;
+                            width: 25px;
+                        }
+                    }
+                }
+                .servings{
+                    display: flex;
+                    justify-content: center;
+                    .images{
+                        img{
+                            display: flex;
+                            height: 25px;
+                            width: 25px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

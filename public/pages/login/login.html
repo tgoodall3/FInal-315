@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="login">
+        <form id="form">
+          <div class="loginhead">
+            <h1>Login Here!</h1>
+          </div>
+          <label for="Email">Email</label>
+          <input id="Email" type="text" name="Email" />
+          <label for="Password">Password</label>
+          <input id="Password" type="text" name="Password" />
+          <div id="Submit" type="submit" onclick="login()" value="Login">
+            <span>Login</span>
+          </div>
+        </form>
+      </div>
+      <div class="create">
+        <form id="form">
+          <div class="createhead">
+            <span>Don’t have an account?</span>
+            <h1>Sign Up!</h1>
+          </div>
+          <label for="FName">First Name:</label>
+          <input class="FName" type="text" name="FName" />
+          <label for="LName">Last Name:</label>
+          <input class="LName" type="text" name="LName" />
+          <label for="Email">Email:</label>
+          <input class="Email" type="text" name="Email" />
+          <label for="Password">Password:</label>
+          <input class="Password" type="text" name="Password" />
+          <!-- <div id="Submit" type="submit" onclick="createAccount()" value="Create Account"> </div> -->
+          <div id="Submit" onclick="createAccount()">
+            <span>Create Account</span>
+          </div>
+        </form>
+      </div>
+    </div>
+    <!-- </div>   -->
+  </body>
+</html>
