@@ -12,12 +12,12 @@
 //                 border-radius: 5px;
 //                 transition: all 0.3s ease-in-out;
 //             }
-        
+
 //     }
 // }
 
 @media screen and (min-width: 961px) {
-    .bars{
+    .bars {
         display: none;
     }
 
@@ -30,9 +30,8 @@
 
 }
 
-@media screen and (max-width: 960px)
-{
-    nav{
+@media screen and (max-width: 960px) {
+    nav {
         // position: relative;
         // display: none;   
         flex-direction: column;
@@ -48,37 +47,44 @@
     font-family: caveat;
     src: url(../fonts/Caveat-Bold.ttf);
 }
+
 @font-face {
     font-family: gillsans;
     src: url(../fonts/GillSans\ \(1\).ttf);
 }
+
 @font-face {
     font-family: gillsanslight;
     src: url(../fonts/GillSans-Light\ \(2\).ttf);
 }
+
 @font-face {
     font-family: gillsansitalic;
     src: url(../fonts/GillSans\ Italic.ttf);
 }
+
 @font-face {
     font-family: latobold;
     src: url(../fonts/Lato-Bold.ttf);
 }
+
 @font-face {
     font-family: latobolditalic;
     src: url(../fonts/Lato-BoldItalic.ttf);
 }
+
 @font-face {
     font-family: latoitalic;
     src: url(../fonts/Lato-Italic.ttf);
 }
+
 @font-face {
     font-family: lato;
     src: url(../fonts/Lato-Regular.ttf);
 }
 
 
-#log-out-nav-holder{
+#log-out-nav-holder {
     position: fixed;
     width: 100%;
     display: flex;
@@ -87,14 +93,14 @@
     top: 20px;
     z-index: 1000;
 
-    .logo{
-        img{
+    .logo {
+        img {
             width: 250px;
             height: 55px;
         }
     }
 
-    nav.active{
+    nav.active {
         display: flex;
         justify-content: center;
         align-items: center;
@@ -102,27 +108,25 @@
         height: 50vh;
         width: 30vw;
         opacity: 100%;
-        transition: height 0.1s, opacity 1s  ease-in-out;
+        transition: height 0.1s, opacity 1s ease-in-out;
 
-        a{
+        a {
             margin: 10px 0;
         }
 
-        .oval{
+        .oval {
             width: 100px;
             height: 42px;
             margin-top: 10px;
             display: flex;
             justify-content: center;
             align-items: center;
-           
-            a{
-               
-            }
+
+            a {}
         }
     }
 
-        
+
     .bars .bar {
         display: block;
         width: 25px;
@@ -135,33 +139,35 @@
         margin-right: 15px;
     }
 
-    .bars.active .bar:nth-child(2){
+    .bars.active .bar:nth-child(2) {
         opacity: 0;
     }
 
-    .bars.active .bar:nth-child(1){
+    .bars.active .bar:nth-child(1) {
         transform: translateY(8px) rotate(45deg);
     }
 
-    .bars.active .bar:nth-child(3){
+    .bars.active .bar:nth-child(3) {
         transform: translateY(-8px) rotate(-45deg);
     }
 
 
-    nav{
+    nav {
         display: flex;
         flex-direction: row;
         width: 800px;
         position: fixed;
         right: 30px;
+        flex-wrap: nowrap;
 
-        .name{
+        .name {
+            font-family: caveat;
             font-size: 25px;
             margin-left: 20px;
             margin-top: 8px;
         }
 
-        button{
+        button {
             margin-top: 5px;
             font-family: caveat;
             background-color: transparent;
@@ -169,14 +175,14 @@
             font-size: 20px;
         }
 
-        .create-rec{
+        .create-rec {
             margin-left: -10px;
             margin-top: 10px;
             margin-right: -5px;
 
         }
 
-        a{
+        a {
             font-size: 25px;
             color: black;
             margin-left: 40px;
@@ -184,9 +190,9 @@
             margin-top: 10px;
             font-family: caveat;
         }
-        
 
-        .oval{
+
+        .oval {
             margin-left: 20px;
             display: flex;
             justify-content: center;
@@ -196,8 +202,8 @@
             border-radius: 16px;
             background-color: #FFD972;
             filter: drop-shadow(0 0 0.75rem);
-            
-            button{
+
+            button {
                 width: 100px;
                 height: 42px;
                 font-size: 25px;
@@ -209,7 +215,7 @@
     }
 }
 
-#log-in-nav-holder{
+#log-in-nav-holder {
     position: fixed;
     width: 100%;
     display: flex;
@@ -218,14 +224,14 @@
     top: 20px;
     z-index: 1000;
 
-    .logo{
-        img{
+    .logo {
+        img {
             width: 250px;
             height: 55px;
         }
     }
 
-    nav.active{
+    nav.active {
         display: flex;
         justify-content: center;
         align-items: center;
@@ -233,25 +239,25 @@
         height: 50vh;
         width: 30vw;
         opacity: 100%;
-        transition: height 0.1s, opacity 1s  ease-in-out;
+        transition: height 0.1s, opacity 1s ease-in-out;
 
-        a{
+        a {
             margin: 10px 0;
         }
 
-        .oval{
+        .oval {
             margin-top: 10px;
             justify-content: center;
             align-items: center;
             // border: none;
-           
-            a{
+
+            a {
                 margin-left: 35px;
             }
         }
     }
 
-        
+
     .bars .bar {
         display: block;
         width: 25px;
@@ -264,33 +270,33 @@
         margin-right: 15px;
     }
 
-    .bars.active .bar:nth-child(2){
+    .bars.active .bar:nth-child(2) {
         opacity: 0;
     }
 
-    .bars.active .bar:nth-child(1){
+    .bars.active .bar:nth-child(1) {
         transform: translateY(8px) rotate(45deg);
     }
 
-    .bars.active .bar:nth-child(3){
+    .bars.active .bar:nth-child(3) {
         transform: translateY(-8px) rotate(-45deg);
     }
 
 
-    nav{
+    nav {
         display: flex;
         flex-direction: row;
-        width: 700px;
+        width: 600px;
         position: fixed;
         right: 30px;
 
-        .name{
+        .name {
             font-size: 25px;
             margin-left: 20px;
             margin-top: 8px;
         }
 
-        button{
+        button {
             margin-top: 5px;
             font-family: caveat;
             background-color: transparent;
@@ -298,14 +304,14 @@
             font-size: 20px;
         }
 
-        .create-rec{
+        .create-rec {
             margin-left: -10px;
             margin-top: 10px;
             margin-right: 5px;
 
         }
 
-        a{
+        a {
             font-size: 25px;
             color: black;
             margin-left: 40px;
@@ -313,9 +319,9 @@
             margin-top: 10px;
             font-family: caveat;
         }
-        
 
-        .oval{
+
+        .oval {
             margin-left: 10px;
             display: flex;
             justify-content: center;
@@ -325,9 +331,9 @@
             border-radius: 16px;
             background-color: #FFD972;
             filter: drop-shadow(0 0 0.75rem);
-    
 
-            a{
+
+            a {
                 margin-right: 40px;
                 margin-bottom: 7px;
             }

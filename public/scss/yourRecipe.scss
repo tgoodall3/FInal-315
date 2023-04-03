@@ -109,8 +109,20 @@
             display: flex;
             font-family: lato;
             .image{
-                button{
-                   opacity: 0;
+                // margin-top: 20px;
+                position: relative;
+                button {
+                position: absolute;
+                top: 100px;
+                left: 60px;
+                font-family: caveat;
+                width: 130px;
+                height: 42px;
+                background-color: #FFD972;
+                border: none;
+                 filter: drop-shadow(0 0 0.75rem);
+                 border-radius: 16px; 
+                opacity: 100;
                 }
                 img{
                     border-radius: 6px;
@@ -124,7 +136,7 @@
 
             .info{
                 font-family: lato;
-                margin-top: 20px;
+                // margin-top: 20px;
                 padding: 10px;
                 background-color: white;
                 width: 250px;

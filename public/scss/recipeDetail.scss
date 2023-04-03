@@ -1,0 +1,236 @@
+@font-face {
+    font-family: caveat;
+    src: url(../fonts/Caveat-Bold.ttf);
+}
+
+@font-face {
+    font-family: gillsans;
+    src: url(../fonts/GillSans\ \(1\).ttf);
+}
+
+@font-face {
+    font-family: gillsanslight;
+    src: url(../fonts/GillSans-Light\ \(2\).ttf);
+}
+
+@font-face {
+    font-family: gillsansitalic;
+    src: url(../fonts/GillSans\ Italic.ttf);
+}
+
+@font-face {
+    font-family: latobold;
+    src: url(../fonts/Lato-Bold.ttf);
+}
+
+@font-face {
+    font-family: latobolditalic;
+    src: url(../fonts/Lato-BoldItalic.ttf);
+}
+
+@font-face {
+    font-family: latoitalic;
+    src: url(../fonts/Lato-Italic.ttf);
+}
+
+@font-face {
+    font-family: lato;
+    src: url(../fonts/Lato-Regular.ttf);
+}
+
+
+@media screen and (max-width:1000px) {
+    .wrapper{
+        
+        .detail-recipe{
+            margin-left: 400px;
+        }
+
+        .ingredients{
+            margin-right: 100px;
+        }
+
+        .instructions{
+            margin-right: 100px;
+        }
+
+        button{
+            margin-right: 400px;
+        }
+    }
+}
+
+// @media screen and (max-width:600px) {
+//     .wrapper{
+//         display: flex
+        
+//         .
+//     }
+
+    
+// }
+
+@media screen and (max-width:1000px) {
+    .wrapper{
+        
+        .detail-recipe{
+            width: 400px;
+            margin-left: 400px;
+            display: flex;
+            flex-direction: column;
+
+            .header{
+                
+            }
+
+           .food-description{
+            width: 200px;
+           }
+        }
+
+        // .ingredients{
+        //     margin-right: 100px;
+        // }
+
+        // .instructions{
+        //     margin-right: 100px;
+        // }
+
+        button{
+            margin-left: 400px;
+        }
+    }
+}
+
+@media screen and (max-width:300px) {
+    .wrapper{
+        
+        .detail-recipe{
+            width: 400px;
+            margin-left: 400px;
+            display: flex;
+            flex-direction: column;
+
+            .header{
+                
+            }
+
+           .food-description{
+            width: 200px;
+           }
+        }
+
+        // .ingredients{
+        //     margin-right: 100px;
+        // }
+
+        // .instructions{
+        //     margin-right: 100px;
+        // }
+
+        button{
+            margin-left: 100px;
+        }
+    }
+}
+
+
+.wrapper{
+    position: relative;
+    height: 200%;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+    .detail-recipe{
+
+        margin-right: 240px;
+        width: 800px;
+        margin-top: 150px;
+        display: flex;
+    
+        .header{
+            font-family: caveat;
+            writing-mode: vertical-lr;
+            margin-top: 100px;
+        }
+    
+        .food-image{
+            img{
+                display: flex;
+                height: 421px;
+                width: 468px;
+            }
+        }
+
+        .food-description{
+           margin-left: 10px;
+           .head{
+            font-family: caveat;
+
+           }
+
+           .info{
+            margin-top: 100px;
+            display: flex;
+            flex-direction: column;
+
+            span{
+                margin: 15px 10px;
+            }
+           }
+        }
+    }
+
+    .ingredients{
+        display: flex;
+        flex-direction: column;
+        margin-top: 50px;
+        width: 80%;
+
+        .list{
+            display: flex;
+            flex-direction: column;
+            margin: 10px 0;
+
+            span{
+                margin: 5px 0;
+            }
+        }
+
+
+    }
+
+    .instructions{
+        // margin-bottom: 200px;
+            display: flex;
+            flex-direction: column;
+            margin-top: 50px;
+            width: 80%;
+    
+            .list{
+                display: flex;
+                flex-direction: column;
+
+                span{
+                    margin: 5px 0;
+                }
+            }
+        }
+
+        button{
+            // position: absolute;
+            // left: 10px;
+            margin-bottom: 100px;
+            margin-top: 20px;
+            margin-right: 850px;
+            width: 130px;
+            height: 42px;
+            background-color: #FFD972;
+            border: none;
+            filter: drop-shadow(0 0 0.75rem);
+            border-radius: 16px;
+        }
+    }
